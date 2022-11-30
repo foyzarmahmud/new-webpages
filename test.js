@@ -13,7 +13,7 @@ else{
 }
 // Problem Solving touch 1
 
-// How can i do a letter grade calculator
+// How can i make a letter grade calculator
 // user marks Input
 // A+ (80-100)
 // A (70 - 79)
