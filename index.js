@@ -28,4 +28,24 @@ let letter = prompt("Enter a Letter : ");
     else
         console.log("Consonant");
 
+        // control statement
+
+        // কিভাবে বড় সংখ্যা নির্নয় করবো
+
+        let num1 = prompt("Enter Your First Number");
+        let num2 = prompt("Enter Your Second Number");
+        let num3 = prompt("Enter Your Third Number");
+
+        if (num1 > num2 && num1 > num3){
+                console.log("Number 1 is Biggest Number ! " + num1)
+        }
+
+        else if(num2 > num1 && num2 > num3){
+                console.log("Number 2 is Biggest Number ! " + num2)
+        }
+
+        else {
+            console.log("Number 3 is Biggest Number ! " + num3)
+        }
+
 
