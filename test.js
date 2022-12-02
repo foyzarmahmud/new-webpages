@@ -1,5 +1,5 @@
 
-// Control Statement
+// // Control Statement
 
 let num = 3;
 
@@ -11,17 +11,17 @@ if (num % 2 == 0){
 else{
     console.log("Odd Number")
 }
-// Problem Solving touch 1
+// // Problem Solving task 1
 
-// How can i make a letter grade calculator
-// user marks Input
-// A+ (80-100)
-// A (70 - 79)
-// A-(60-69)
-// B(50-59)
-// C(40-49)
-// D(33-39)
-// Fail
+// // How can i make a letter grade calculator
+// // user marks Input
+// // A+ (80-100)
+// // A (70 - 79)
+// // A-(60-69)
+// // B(50-59)
+// // C(40-49)
+// // D(33-39)
+// // Fail
 
 let marks = prompt("Enter Your Marks : ");
 
@@ -57,6 +57,38 @@ let marks = prompt("Enter Your Marks : ");
     
         else{
             console.log("Envalid Marks")
+        }
+
+
+
+
+        // Task input a letter and check it is vowel or consonant using switch;
+
+        let inputLetter = prompt("Enter a Letter : ");
+            inputLetter = inputLetter.toLowerCase();
+
+        switch(inputLetter){
+            case  "a":
+            console.log("Your Letter is vowel : "+ inputLetter);
+            break;
+
+            case  "e":
+            console.log("Your Letter is vowel : "+ inputLetter);
+            break;
+
+            case  "i":
+            console.log("Your Letter is vowel : "+ inputLetter);
+            break;
+
+            case  "o":
+            console.log("Your Letter is vowel : "+ inputLetter);
+            break;
+
+            case  "u":
+            console.log("Your Letter is vowel : "+ inputLetter);
+            break;
+
+            default : console.log("Your Letter is consonant : " + inputLetter);
         }
 
 
