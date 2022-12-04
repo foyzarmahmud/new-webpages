@@ -91,6 +91,8 @@ let marks = prompt("Enter Your Marks : ");
             default : console.log("Your Letter is consonant : " + inputLetter);
         }
 
+        
+
 
 
 
