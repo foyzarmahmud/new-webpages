@@ -25,3 +25,37 @@ const person = {
 for (let x in person){
     console.log(x);
 }
+
+let math = 0;
+
+for (let i = 1; i <= 6; i++){
+    math = math + i;
+}
+
+console.log(math);
+
+// how to loop in an object
+
+
+const fayzarLive = {
+    fName : "Fayzar",
+    lName : "Mahmud",
+    live : "Dinajpur",
+    age : 23
+}
+
+for (let f in fayzarLive){
+    console.log(f);
+}
+
+const loving = {
+    first : "Protima",
+    second: "SantiBazar",
+    thired: "Banna",
+    forth: "Farhana",
+    fifth: "Selina"
+}
+
+for(let love in loving){
+    console.log(love)
+}
