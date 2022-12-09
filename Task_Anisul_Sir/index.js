@@ -30,3 +30,12 @@ for (let a = 1; a <= 100; a++){
         document.write(" "+a);
     }                                              
 }
+document.write(" End ")
+
+
+//how to use do while loop 
+let x = 1;
+do{
+    document.write(" "+x);
+    x++;
+}while(x<=10)
