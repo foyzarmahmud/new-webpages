@@ -52,9 +52,3 @@ let num3 = Number(prompt("Enter your Third Number : "));
 
 
 // now this program convert to switch statement
-
-
-switch(num1,num2,num3){
-    case num1 > num2 && num1 > num3 :
-        console.log("Number One Okay : "+num1)
-}
