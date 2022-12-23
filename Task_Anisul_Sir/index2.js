@@ -23,3 +23,6 @@
     let maxScore = highScore(scores);
     console.log(maxScore);
 
+
+  
+
