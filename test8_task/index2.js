@@ -24,4 +24,4 @@
     }
 
     document.write("Your Total Won Number : "+ won +"<br>");
-    document.write("Your Total lost Number : " + lost + "<br>");
+    document.write("Your Total Lost Number : " + lost + "<br>");
